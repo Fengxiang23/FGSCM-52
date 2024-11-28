@@ -58,10 +58,9 @@ If you find our work helpful for your research, please consider citing our work.
   journal={arXiv preprint arXiv:2403.08271},
   year={2024}
 }
-
+```
 
 ## License
 
 This work is under the [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0), while some specific operations in this codebase might be with other licenses. 
 
-## Acknowledgements
