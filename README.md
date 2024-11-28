@@ -17,7 +17,7 @@
 
 ## 🔥 News
 * **`2024.11.28`** 🌟 FGSCM-52 now has a [huggingface version]() and a [baidu version]()
-* **`2024.11.29`** 🌟 Paper now has a new version() .
+* **`2024.11.29`** 🌟 Paper is accepted by TGRS and now has a new version [paper]() .
 
 ## 👀 Intruduction
 -  `FGSCM-52`: We contribute to the field by introducing a comprehensive dataset, FGSCM-52, significantly expanding existing datasets with more extensive data and detailed annotations for less common ship classes. </br>
