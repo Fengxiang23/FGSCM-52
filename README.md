@@ -1,9 +1,7 @@
-# FGSCM-52
-The dataset in the TGRS24 "Efficient Prompt Tuning of Large Vision-Language Model for Fine-Grained Ship Classification"
 
 <p align="center">
 
-  <h2 align="center"><strong>Scaling Efficient Masked Autoencoder Learning on Large Remote Sensing Dataset</strong></h2>
+  <h2 align="center"><strong>Efficient Prompt Tuning of Large Vision-Language Model for Fine-Grained Ship Classification</strong></h2>
 
   <p align="center">
       Long Lan<sup>1</sup>&nbsp;&nbsp;&nbsp;
@@ -17,20 +15,17 @@ The dataset in the TGRS24 "Efficient Prompt Tuning of Large Vision-Language Mode
   <sup>3</sup>Wuhan University&nbsp;&nbsp;</br>
   </p>
 
-## Intruduction
+## 🔥 News
+* **`2024.11.14`** 🌟 FGSCM-52 now has a [huggingface version]() and a [baidu version]()
+
+## 👀 Intruduction
 -  `FGSCM-52`: We contribute to the field by introducing a comprehensive dataset, FGSCM-52, significantly expanding existing datasets with more extensive data and detailed annotations for less common ship classes. </br>
 - `Method`: We introduce a novel prompt tuning technique that employs a hierarchical, multi-granularity prompt design. Our approach integrates remote sensing ship priors through bias terms, learned from a small trainable network. This strategy enhances the model's generalization capabilities while improving its ability to discern intricate backgrounds and learn discriminative ship features. 
 
 
-## Todo List
+## To do List
 - [x] Initial release of FGSCM-52. 🚀
 - [ ] Codes and configs for method. 
-
-
-
-## Updates
-
-- \[2024.11\] - The FGSCM-52 dataset have been released.
 
 
 
@@ -38,34 +33,30 @@ The dataset in the TGRS24 "Efficient Prompt Tuning of Large Vision-Language Mode
 
 - [FGSCM-52](#FGSCM-52)
 - [Installation](#gear-installation)
-- [Pretraining](#blue_car-Pretraining)
-- [Downstream Tasks](#rocket-Results-on-downstream-tasks)
+- [Training](#blue_car-Pretraining)
 - [Citation](#citation)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 
 ## FGSCM-52
- `RS-4M` dataset contains about 4 million high-quality remote sensing optical images, which is four times larger than previous representative remote sensing datasets.
+FGSCM-52 has 52 categories, it includes an additional ten categories and increases the number of samples across existing categories, thereby making it serve as a better testbed for fine-grained ship classification. The dataset features image sizes ranging from 50$\times$50 to 1,600$\times$1,700 pixels. %This significant size variation of ship instances in RS-FGSC necessitates specialized handling. Furthermore, FGSCM-52 is equipped with well-defined hierarchical labels, which facilitate a more nuanced understanding of ship classifications. For a comprehensive overview of the FGSCM-52 dataset, please refer to Fig.
 
-### Examples of RS-4M
+### Examples of FGSCM-52
 <img src="./Figures/FGSCM.png" width="700"> 
 
-### Experiments on RS-4M
+## Method
+<img src="./Figures/method.png" width="700"> 
+## Citation
+If you find our work helpful for your research, please consider citing our work.   
 
-## SelectiveMAE
-
-### :gear: Installation
-
-For details related to installation, kindly refer to [INSTALL.md](docs/INSTALL.md).
-
-
-###  :blue_car:  Pretraining
-
-To learn more usage about the pretraining codes, kindly refer to [PRETRAIN.md](docs/GET_STARTED.md).
-
-
-### :rocket: Results on downstream tasks
+```bibtex
+@article{lan2024efficient,
+  title={Efficient prompt tuning of large vision-language model for fine-grained ship classification},
+  author={Lan, Long and Wang, Fengxiang and Li, Shuyan and Zheng, Xiangtao and Wang, Zengmao and Liu, Xinwang},
+  journal={arXiv preprint arXiv:2403.08271},
+  year={2024}
+}
 
 
 ## License
