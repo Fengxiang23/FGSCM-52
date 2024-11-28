@@ -43,10 +43,11 @@
 FGSCM-52 has 52 categories, it includes an additional ten categories and increases the number of samples across existing categories, thereby making it serve as a better testbed for fine-grained ship classification. The dataset features image sizes ranging from 50$\times$50 to 1,600$\times$1,700 pixels. %This significant size variation of ship instances in RS-FGSC necessitates specialized handling. Furthermore, FGSCM-52 is equipped with well-defined hierarchical labels, which facilitate a more nuanced understanding of ship classifications. For a comprehensive overview of the FGSCM-52 dataset, please refer to Fig.
 
 ### Examples of FGSCM-52
-<img src="./Figures/FGSCM.png" width="700"> 
+<img src="./figures/FGSCM52.png" width="700"> 
 
 ## Method
-<img src="./Figures/method.png" width="700"> 
+<img src="./figures/method.png" width="700"> 
+
 ## Citation
 If you find our work helpful for your research, please consider citing our work.   
 
