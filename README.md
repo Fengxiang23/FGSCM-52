@@ -17,7 +17,7 @@
 
 ## 🔥 News
 * **`2024.11.25`** 🌟 Paper is accepted by TGRS.
-* **`2024.11.28`** 🌟 FGSCM-52 now has a [huggingface version]() and a [baidu version]().
+* **`2024.11.28`** 🌟 FGSCM-52 now has a [huggingface version]() and a [baidu version](https://pan.baidu.com/s/17-v92pjH8iIzwwUNLrDo3A?pwd=w383).
 * **`2024.11.29`** 🌟 Paper now has a new version [paper]().
 
 ## 👀 Intruduction
